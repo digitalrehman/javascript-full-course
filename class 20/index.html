@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+  </head>
+
+  <style>
+    .box {
+      height: 200px;
+      width: 200px;
+      border: 1px solid rgba(128, 128, 128, 0.24);
+      margin: 10px;
+    }
+    
+    .grandParent{
+        height: 300px;
+        width: 300px;
+        border: 1px solid rgba(8, 194, 39, 0.589);
+        margin: 10px;
+    }
+    .parent{
+        height: 150px;
+        width: 150px;
+        border: 1px solid rgba(202, 6, 6, 0.568);
+        margin: 10px;
+    }
+  </style>
+  <body>
+    <!-- <h1 onmouseenter="changeColors()" onmouseleave="changeColor()" id="title">This is Events Video</h1>
+    <button onclick="changepurple()" id="btn">Click Me</button> -->
+
+    <!-- <h1 id="title">Counter (0)</h1>
+    <p id="para">This is paragraph tag</p>
+    <ul id="ul">
+      <li>Press --- ctrl + b (text bold)</li>
+      <li>Press --- ctrl + i (text italic)</li>
+      <li>Press --- ctrl + u (text underline)</li>
+      <li>Press --- ctrl + s (text strik)</li>
+      <li>Press --- h (text Hide)</li>
+      <li>Press --- b (background Blue)</li>
+      <li>Press --- r (background Red)</li>
+      <li>Press --- ctrl + alt + a (alert)</li>
+    </ul>
+    <button id="btn">Click Me</button> -->
+    <select id="select"></select>
+    <input id="color" type="text" placeholder="enter your color name" />
+    <input id="radius" type="number" placeholder="enter your box radius" />
+    <input id="password" type="password" placeholder="enter your password" />
+    <button id="toggle">show</button>
+    <button id="btn">catch color</button>
+
+    <div class="box"></div>
+
+    <form id="form">
+      <input id="name" type="text" placeholder="Enter Name" />
+      <input id="email" type="text" placeholder="Enter Email" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="grandParent" class="grandParent">
+      <h1>Grand Parent</h1>
+      <div id="parent" class="parent">
+        <h1>Parent</h1>
+        <button id="child" class="child">Child</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
