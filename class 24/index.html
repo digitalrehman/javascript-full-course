@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POST/PUT/DELETE</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <input type="text" placeholder="Enter Your Title" id="title" />
+      <input type="text" placeholder="Enter Your Bio" id="body" />
+      <button id="post">Add</button>
+    </div>
+
+    <div class="form">
+      <input type="text" placeholder="Enter your Id" id="id" />
+      <input type="text" placeholder="Enter Your Title" id="updateTitle" />
+      <button id="put">Update</button>
+    </div>
+
+    <div class="form">
+      <input type="text" placeholder="Enter your Id" id="deleteId" />
+      <button id="delete">Delete</button>
+    </div>
+
+    <p id="message"></p>
+    <p id="loader" style="display: none">..loading</p>
+    <script src="/script.js"></script>
+  </body>
+</html>
